@@ -42,11 +42,11 @@ function createSelect(type = 'Телефон', value = '', index, container) {
   function selectHandler() {
     switch (select.value) {
       case 'Телефон':
-        input.setAttribute('type', 'text');
+        input.setAttribute('type', 'tel');
         im.mask(input);
         break;
       case 'Доп. телефон':
-        input.setAttribute('type', 'text');
+        input.setAttribute('type', 'tel');
         im.mask(input);
         break;
       case 'Email':
